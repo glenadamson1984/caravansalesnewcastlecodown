@@ -17,7 +17,7 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Private Caravan Sales Newcastle Co Down | Willerby Kirkland 2022 for Sale",
   description:
-    "2022 Willerby Kirkland 3-bed static caravan for sale in Newcastle, Co Down. £35,000 - Save £15,000+ vs park prices. Currently at Mourneview Caravan Park. Double glazing, central heating, excellent condition.",
+    "2022 Willerby Kirkland 3-bed static caravan for sale in Newcastle, Co Down. £35,000. Currently at Mourneview Caravan Park. Double glazing, central heating, excellent condition.",
   keywords: [
     "private caravan sales Newcastle Co Down",
     "caravan for sale Newcastle Northern Ireland",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Private Caravan Sales Newcastle Co Down | Willerby Kirkland 2022",
     description:
-      "2022 Willerby Kirkland 3-bed static caravan - £35,000. Save £15k+ vs park prices. Newcastle, Co Down.",
+      "2022 Willerby Kirkland 3-bed static caravan - £35,000. Newcastle, Co Down.",
   },
 };
 

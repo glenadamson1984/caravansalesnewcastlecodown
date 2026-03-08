@@ -74,23 +74,12 @@ export default function Home() {
             condition
           </p>
 
-          {/* Price & Savings */}
-          <div className="flex flex-col sm:flex-row gap-6 items-start sm:items-center">
-            <div className="bg-white/10 backdrop-blur-sm rounded-2xl px-8 py-5 border border-white/20">
-              <p className="text-sm text-coastal-200 uppercase tracking-wider mb-1">
-                Asking Price
-              </p>
-              <p className="text-4xl md:text-5xl font-bold">£35,000</p>
-            </div>
-            <div className="bg-emerald-500/20 backdrop-blur-sm rounded-2xl px-6 py-4 border border-emerald-400/30">
-              <p className="text-emerald-100 font-semibold text-lg">
-                Save £15,000+ vs park prices
-              </p>
-              <p className="text-emerald-200/90 text-sm mt-1">
-                Parks sell similar 2021 models for £48,000–£49,500. This is a
-                massive savings buying privately.
-              </p>
-            </div>
+          {/* Price */}
+          <div className="bg-white/10 backdrop-blur-sm rounded-2xl px-8 py-5 border border-white/20 inline-block">
+            <p className="text-sm text-coastal-200 uppercase tracking-wider mb-1">
+              Asking Price
+            </p>
+            <p className="text-4xl md:text-5xl font-bold">£35,000</p>
           </div>
         </div>
       </header>
@@ -104,8 +93,7 @@ export default function Home() {
                 Currently sited at Mourneview Caravan Park
               </h2>
               <p className="text-slate-600">
-                Newcastle, County Down, Northern Ireland · Straightforward access
-                for uplift
+                Newcastle, County Down, Northern Ireland
               </p>
             </div>
             <a
@@ -209,7 +197,7 @@ export default function Home() {
                 </li>
                 <li className="flex gap-3">
                   <span className="text-emerald-600 font-medium">✓</span>
-                  Sited on pitch with straightforward access for uplift
+                  Sited on pitch
                 </li>
                 <li className="flex gap-3">
                   <span className="text-emerald-600 font-medium">✓</span>
@@ -220,11 +208,6 @@ export default function Home() {
                   Happy to accept offers
                 </li>
               </ul>
-              <p className="mt-6 text-slate-500 text-sm">
-                Note: De-siting and bringing the caravan across the road for
-                collection is typically in the region of £800–£1,000 (to be
-                confirmed). Sale is for the caravan itself.
-              </p>
             </div>
           </div>
         </div>
@@ -238,8 +221,7 @@ export default function Home() {
           </h2>
           <p className="text-coastal-100 mb-10 max-w-xl mx-auto">
             This 2022 Willerby Kirkland is a modern family holiday home in
-            excellent condition. At £35,000 you&apos;re saving over £15,000
-            compared to buying from a park.
+            excellent condition.
           </p>
           <ContactForm />
         </div>
